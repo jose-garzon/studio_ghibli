@@ -1,7 +1,7 @@
 import axios, { AxiosError } from 'axios'
 import { GetMovieDetailResponse, GetMoviesResponse, Movie } from './movie.types'
 
-const baseUrl = 'https://miapi-movies.herokuapp.com/movies/v1'
+const baseUrl = 'https://movies-be.vercel.app/movies/v1'
 
 const getMovies = async (): Promise<GetMoviesResponse> => {
   try {
